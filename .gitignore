@@ -5,4 +5,3 @@ package.json
 vite.config.js
 README.md
 .DS_store
-.gitignore
