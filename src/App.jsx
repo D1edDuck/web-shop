@@ -7,6 +7,7 @@ import Category from "./pages/Category";
 import ProductDetails from "./pages/ProductDetails";
 import NotFound from "./pages/NotFound";
 import Layout from "./components/Layout";
+import Thanks from "./pages/Thanks";
 
 // const router = createBrowserRouter([
 //   {
@@ -79,6 +80,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "cart", element: <Cart /> },
+      { path: "thanks", element: <Thanks /> },
       { path: "category/:categoryId", element: <Category /> },
       { path: "product/:productId", element: <ProductDetails /> },
       { path: "*", element: <NotFound /> },
